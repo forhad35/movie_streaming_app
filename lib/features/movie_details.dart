@@ -136,20 +136,7 @@ class MovieDetailPage extends StatelessWidget {
           ),
         ),
       ),
-      bottomNavigationBar: BottomNavigationBar(
-        backgroundColor: Colors.black,
-        selectedItemColor: Colors.purpleAccent,
-        unselectedItemColor: Colors.grey,
-        items: const [
-          BottomNavigationBarItem(icon: Icon(Icons.home), label: 'Home'),
-          BottomNavigationBarItem(icon: Icon(Icons.wifi), label: 'Live Stream'),
-          BottomNavigationBarItem(icon: Icon(Icons.video_library), label: 'Library'),
-          BottomNavigationBarItem(icon: Icon(Icons.favorite_border), label: 'Favorite'),
-          BottomNavigationBarItem(icon: Icon(Icons.person), label: 'Profile'),
-        ],
-        currentIndex: 2,
-        onTap: (index) {},
-      ),
+
     );
   }
 
